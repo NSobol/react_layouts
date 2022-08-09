@@ -9,9 +9,10 @@ function Store(props) {
   const { products } = props;
 
   const handlerToggle = () => {
-    icon === "view_list"
-      ? setIcon({ icon: "view_list" })
-      : setIcon({ icon: "view_module" });
+    if (icon === "view_list") {
+      setIcon("view_module");
+    }
+    setIcon("view_list");
     console.log(icon);
   };
 
