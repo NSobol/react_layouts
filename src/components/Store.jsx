@@ -11,8 +11,10 @@ function Store(props) {
   const handlerToggle = () => {
     if (icon === "view_list") {
       setIcon("view_module");
+    } else {
+      setIcon("view_list");
     }
-    setIcon("view_list");
+
     console.log(icon);
   };
 
@@ -30,7 +32,6 @@ function Store(props) {
 
 Store.propTypes = {
   products: propTypes.array,
-  icon: propTypes.string,
 };
 
 export default Store;
