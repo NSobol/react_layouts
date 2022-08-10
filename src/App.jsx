@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
 import Store from "./components/Store.jsx";
+import products from "./data/data";
 
-function App(props) {
-  const { products } = props;
+function App() {
   return <Store products={products} />;
 }
 

@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.card__image {
+  width: 20%;
+}
+
+.card__image img {
+  width: 100px;
+}
+
+.card__name {
+  width: 20%;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card__color {
+  width: 20%;
+}
+
+.card__price {
+  width: 20%;
+  color: red;
+  font-size: 20px;
+}
+
+.card__btn {
+  width: 20%;
+}
+
+.card__btn button {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 40px;
+  padding: 10px 25px;
+}

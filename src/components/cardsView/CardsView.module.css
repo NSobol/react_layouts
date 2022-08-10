@@ -1,0 +1,60 @@
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 320px;
+  height: 320px;
+  margin: 25px 65px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 10px 15px -5px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.card__name {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  top: 20px;
+  left: 25%;
+  bottom: 10px;
+}
+
+.card__color {
+  position: absolute;
+  top: 55px;
+  left: 45%;
+  right: 45%;
+}
+
+.card__image img {
+  width: 270px;
+}
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+}
+.card__price {
+  color: red;
+  font-size: 20px;
+}
+
+button.card__btn {
+  color: red;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 40px;
+  padding: 10px 20px;
+}

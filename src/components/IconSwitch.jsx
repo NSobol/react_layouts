@@ -3,10 +3,9 @@ import propTypes from "prop-types";
 
 function IconSwitch(props) {
   const { icon, onSwitch } = props;
-  console.log(icon);
   return (
     <div>
-      <button icon={icon} onClick={onSwitch} className="material-icons">
+      <button icon={icon} onClick={onSwitch} className="material-icons btn">
         {icon}
       </button>
     </div>
